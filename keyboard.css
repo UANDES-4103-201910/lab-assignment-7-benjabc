@@ -5,6 +5,12 @@
 
 body{
   background-color: #7a3232; 
+  position:fixed !important;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
 }
 
 .keyboard{
@@ -14,18 +20,24 @@ body{
   border-radius: 9px;
   padding: 30px;
   color: #eee;
+  position:fixed !important;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
 }
 .key{
-  width: 40px; height:40px;
-  display:block;
-  background-color: #5b5b5b;
-  text-align: center;
-  padding-left: 8px;
-  line-height: 29px;
-  border-radius:4px;
-  float:left; margin-left: 3px;
-  margin-bottom:3px;
-  margin: 0.2%;
+    width: 40px; height:40px;
+    display:block;
+    background-color: #5b5b5b;
+    text-align: center;
+    padding-left: 8px;
+    line-height: 29px;
+    border-radius:4px;
+    float:left; margin-left: 3px;
+    margin-bottom:3px;
+    margin: 0.2%;
 }
 .letter{width:30px;}
 .backspace{width: 50px; line-height: 29px; font-size:13px;}
