@@ -1,3 +1,35 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+::selection{background-color:none; color:inherit;}
+
+body{
+  background-color: #7a3232; 
+}
+
+.keyboard{
+  width:600px; height: 220px;
+  background-color: #111;
+  margin: 5%;
+  border-radius: 9px;
+  padding: 30px;
+  color: #eee;
+}
+.key{
+  width: 40px; height:40px;
+  display:block;
+  background-color: #5b5b5b;
+  text-align: center;
+  padding-left: 8px;
+  line-height: 29px;
+  border-radius:4px;
+  float:left; margin-left: 3px;
+  margin-bottom:3px;
+  margin: 0.2%;
+}
+.letter{width:30px;}
+.backspace{width: 50px; line-height: 29px; font-size:13px;}
+.tab{width: 50px; line-height: 29px; font-size:13px;}
+.function{width: 43px; line-height: 29px; font-size:13px; background-color:#ee7421; text-align:left;}
+.blackspace{width: 40px; height: 40px; background-color:#111;}
+.spacebar{width:300px;}
